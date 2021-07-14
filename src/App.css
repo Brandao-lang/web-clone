@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 420px;
+  padding-right: 420px;
+  margin-bottom: 110px;
+}
+
+.portfolio-section {
+  background-color: #f8f9fa;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  padding: 1px;
+}
+
+.p-cards {
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  justify-content: space-evenly;
+}

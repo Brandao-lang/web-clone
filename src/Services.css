@@ -1,0 +1,14 @@
+.services-main {
+  width: 300px;
+}
+
+.service-cards img {
+  width: 120px;
+  height: 120px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.service-cards {
+  text-align: center;
+}
