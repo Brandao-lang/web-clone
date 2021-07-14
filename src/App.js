@@ -1,13 +1,13 @@
-import './App.css';
-import Title from './Title';
-import Header from './Header';
-import Services from './Services';
-import Portfolio from './Portfolio';
-import About from './About';
-import Team from './Team';
-import Contact from './Contact';
-import Projects from './Projects'
-import ServiceCards from './ServiceCards'
+import './Styles/App.css';
+import Title from './Components/Title';
+import Header from './Components/Header';
+import Services from './Components/Services';
+import Portfolio from './Components/Portfolio';
+import About from './Components/About';
+import Team from './Components/Team';
+import Contact from './Components/Contact';
+import Projects from './Components/Projects'
+import ServiceCards from './Components/ServiceCards'
 
 const serviceObj = [
   {src:"https://static.thenounproject.com/png/1074958-200.png", title: "E-Commerce", text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."},
