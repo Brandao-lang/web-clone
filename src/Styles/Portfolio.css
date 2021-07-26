@@ -1,8 +1,35 @@
 .portfolio-main {
   margin: 20px;
+  background-color: #ffffff;
+}
+
+.portfolio-main section {
+  position: relative;
+  background: rgba(255, 200, 0, 0.9);
+  width: 340px;
+  height: 320px;
 }
 
 .portfolio-main img {
+  display: block;
   width: 340px;
   height: 320px;
+}
+
+.portfolio-main svg {
+  position: absolute;
+  fill: #ffffff;
+  height: auto;
+  width: 15%;
+  top: 42%;
+  left: 42%;
+}
+
+.portfolio-main img:hover {
+  cursor: pointer;
+  opacity: 0.25;
+  transition: 0.3s;
+}
+
+.portfolio-main svg:hover {
 }
