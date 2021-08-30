@@ -1,0 +1,32 @@
+.about-top {
+  /* border: 1px solid black; */
+  width: 60%;
+  text-align: right;
+  margin: 0 auto;
+}
+
+.about-top img {
+  height: auto;
+  max-width: 100%;
+  float: right;
+  margin-right: 45%;
+  margin-left: 5%;
+  border: 2px solid #868784;
+  border-radius: 50%;
+}
+
+.about-list {
+  list-style-type: none;
+  margin-top: 80px;
+}
+
+.vl {
+  border-left: 1px solid #868784;
+  height: 150px;
+  margin-left: 45.5%;
+}
+
+ul h2,
+ul p {
+  margin: 0;
+}

@@ -65,3 +65,10 @@
   margin: auto;
   justify-content: space-evenly;
 }
+
+.about-section {
+  margin: 0 auto;
+  width: 100vw;
+  text-align: center;
+  /* background-color: lightblue; */
+}

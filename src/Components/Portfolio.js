@@ -11,6 +11,7 @@ export default function Portfolio (props) {
     function hider() {
         setVisible("none")
     }
+
     return (
         <div className="portfolio-main">
             <section>
