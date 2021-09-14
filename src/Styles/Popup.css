@@ -1,0 +1,29 @@
+.pop-up {
+  position: fixed;
+  z-index: 1;
+  top: 30%;
+  left: 40%;
+  width: 20%;
+  height: 40%;
+  background-color: white;
+  /* For Internet Explorer */
+  box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.3);
+  /* For other browsers */
+  box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.3);
+}
+
+.pop-up-content {
+  position: absolute;
+  top: 20%;
+  padding: 20px;
+  text-align: center;
+}
+
+.pop-up-content button {
+  margin-top: 40px;
+  padding: 10px 15px;
+}
+
+.close {
+  display: none;
+}

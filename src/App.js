@@ -6,6 +6,7 @@ import Team from './Components/Team';
 import Contact from './Components/Contact';
 import Projects from './Components/Projects'
 import ServiceCards from './Components/ServiceCards'
+import Popup from './Components/Popup';
 import { titleObj } from './Data/sectionTitle';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
  
   return (
     <div className="App-main">
+      <Popup />
       <Header />
       <div className="section-title">
         {titleCards[0]}
