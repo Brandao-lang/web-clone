@@ -72,3 +72,14 @@
   text-align: center;
   /* background-color: lightblue; */
 }
+
+.team-section {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 100vw;
+  text-align: center;
+  background-color: #f8f9fa;
+  padding: 10px;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}

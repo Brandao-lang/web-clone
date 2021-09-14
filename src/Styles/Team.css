@@ -1,0 +1,29 @@
+.team-js {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 11%;
+}
+
+.person-js {
+  width: 30em;
+}
+
+.person-js h2 {
+  margin-bottom: 0;
+}
+
+.person-img {
+  vertical-align: middle;
+  width: 12em;
+  height: 12em;
+  border: 2px solid grey;
+  border-radius: 50%;
+}
+
+.social-media {
+  height: 2em;
+  width: auto;
+  margin: 12px;
+  border-radius: 50%;
+  padding: 2px;
+}

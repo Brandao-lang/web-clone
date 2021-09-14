@@ -8,11 +8,10 @@ import Projects from './Components/Projects'
 import ServiceCards from './Components/ServiceCards'
 import { titleObj } from './Data/sectionTitle';
 
-
 function App() {
 
  const titleCards = titleObj.map((card) => <Title title={card.title} text={card.text} />)
-  
+ 
   return (
     <div className="App-main">
       <Header />
@@ -25,10 +24,12 @@ function App() {
         {titleCards[2]}
         <About />
       </div>
-      {titleCards[3]}
-      <Team />
-      <Contact />
-    </div>
+      <div className='team-section'>
+        {titleCards[3]}
+        <Team />
+      </div>
+        <Contact />
+      </div>
   );
 }
 

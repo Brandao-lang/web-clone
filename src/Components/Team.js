@@ -1,14 +1,15 @@
 import React from 'react'
+import Person from './Person';
+import { peopleObj } from '../Data/people';
+import '../Styles/Team.css'
 
 export default function Team () {
+
+    const peopleCards = peopleObj.map((person) => <Person img={person.img} name={person.name} role={person.role} />)
+
     return(
         <div className="team-js">
-            <img src="" alt="person-image"></img>
-            <h2>person-name</h2>
-            <span>person-job-title</span>
-            <img src="" alt="Twitter"></img>
-            <img src="" alt="Facebook"></img>
-            <img src="" alt="Linkden"></img>
+            {peopleCards}
         </div>
     )
 }
