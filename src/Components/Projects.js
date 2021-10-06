@@ -4,7 +4,7 @@ import { portfolioObj } from '../Data/portfolioItems';
 
 export default function Projects (props) {
   
-  const portfolioCards = portfolioObj.map((card) => <Portfolio src={card.src} title={card.title} text={card.text} />)
+  const portfolioCards = portfolioObj.map((card, index) => <Portfolio key={index} src={card.src} title={card.title} text={card.text} />)
     
   return (
         <div className="portfolio-section">
